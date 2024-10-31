@@ -1,0 +1,44 @@
+INFO 2024-10-27 08:40:05,576 autoreload Watching for file changes with StatReloader
+INFO 2024-10-27 08:40:23,887 basehttp "GET /api/posts HTTP/1.1" 301 0
+INFO 2024-10-27 08:40:23,912 views Fetching all blog posts
+DEBUG 2024-10-27 08:40:23,938 views Fetched 4 blog posts
+INFO 2024-10-27 08:40:23,951 basehttp "GET /api/posts/ HTTP/1.1" 200 882
+INFO 2024-10-31 16:54:11,542 autoreload Watching for file changes with StatReloader
+WARNING 2024-10-31 16:54:24,343 log Not Found: /
+WARNING 2024-10-31 16:54:24,345 basehttp "GET / HTTP/1.1" 404 2764
+WARNING 2024-10-31 16:54:24,598 log Not Found: /favicon.ico
+WARNING 2024-10-31 16:54:24,624 basehttp "GET /favicon.ico HTTP/1.1" 404 2815
+WARNING 2024-10-31 16:55:00,846 log Not Found: /posts
+WARNING 2024-10-31 16:55:00,848 basehttp "GET /posts HTTP/1.1" 404 2797
+WARNING 2024-10-31 16:55:52,826 log Unauthorized: /api/posts/
+WARNING 2024-10-31 16:55:52,829 basehttp "GET /api/posts/ HTTP/1.1" 401 5100
+WARNING 2024-10-31 16:55:53,027 log Unauthorized: /api/posts/
+WARNING 2024-10-31 16:55:53,038 basehttp "GET /api/posts/ HTTP/1.1" 401 5100
+INFO 2024-10-31 16:55:53,263 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,263 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,573 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,575 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,701 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,763 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,764 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,888 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:53,897 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:54,052 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:54,112 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-31 16:55:54,337 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-11-01 00:18:19,438 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-01 00:18:27,746 log Not Found: /
+WARNING 2024-11-01 00:18:27,748 basehttp "GET / HTTP/1.1" 404 2764
+WARNING 2024-11-01 00:18:28,133 log Not Found: /favicon.ico
+WARNING 2024-11-01 00:18:28,134 basehttp "GET /favicon.ico HTTP/1.1" 404 2815
+WARNING 2024-11-01 00:18:40,259 log Unauthorized: /api/posts/
+WARNING 2024-11-01 00:18:40,260 basehttp "GET /api/posts/ HTTP/1.1" 401 5100
+INFO 2024-11-01 00:47:19,188 autoreload Watching for file changes with StatReloader
+INFO 2024-11-01 00:47:47,784 basehttp "GET /api/schema HTTP/1.1" 301 0
+INFO 2024-11-01 00:47:48,215 basehttp "GET /api/schema/ HTTP/1.1" 200 22835
+INFO 2024-11-01 00:50:32,045 basehttp "GET /api/docs/swagger HTTP/1.1" 301 0
+INFO 2024-11-01 00:50:32,486 basehttp "GET /api/docs/swagger/ HTTP/1.1" 200 4641
+INFO 2024-11-01 00:50:34,575 basehttp "GET /api/schema/ HTTP/1.1" 200 50581
+INFO 2024-11-01 00:54:46,219 basehttp "GET /api/docs/redoc HTTP/1.1" 301 0
+INFO 2024-11-01 00:54:46,442 basehttp "GET /api/docs/redoc/ HTTP/1.1" 200 724
+INFO 2024-11-01 00:54:48,135 basehttp "GET /api/schema/ HTTP/1.1" 200 22835
